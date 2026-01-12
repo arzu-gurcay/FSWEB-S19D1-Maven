@@ -1,6 +1,6 @@
 package com.workintech.s18d2.services;
 
-import com.workintech.s18d2.dao.FruitRepository;
+import com.workintech.s18d2.repository.FruitRepository;
 import com.workintech.s18d2.entity.Fruit;
 import com.workintech.s18d2.exceptions.PlantException;
 import lombok.AllArgsConstructor;

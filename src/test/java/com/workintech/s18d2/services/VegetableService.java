@@ -1,4 +1,15 @@
 package com.workintech.s18d2.services;
 
-public class VegetableService {
+import com.workintech.s18d2.entity.Fruit;
+import com.workintech.s18d2.entity.Vegetable;
+
+import java.util.List;
+
+public interface VegetableService {
+    List<Vegetable> getByPriceDesc();
+    List<Vegetable> getByPriceAsc();
+    List<Vegetable> searchByName(String name);
+    Vegetable save(Vegetable vegetable);
+    Vegetable getById(long id);
+    Vegetable delete(long id);
 }
